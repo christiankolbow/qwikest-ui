@@ -16,8 +16,9 @@
     "isolatedModules": true,
     "outDir": "tmp",
     "noEmit": true,
+    "baseUrl": ".",
     "paths": {
-      "~/*": ["./src/*"]
+      "@/*": ["./src/*"]
     }
   },
   "files": ["./.eslintrc.cjs"],
