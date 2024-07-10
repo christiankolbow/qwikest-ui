@@ -1,4 +1,4 @@
-import { Badge, Button } from "@/components/ui/QwikestUi";
+import { Badge, Button, Checkbox } from "@/components/ui/QwikestUi";
 import { component$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
 
@@ -9,6 +9,7 @@ export default component$(() => {
         <Button>Default button</Button>
         <Button variant="outline">Test</Button>
         <Badge>17</Badge>
+        <Checkbox />
       </div>
     </>
   );
